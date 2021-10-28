@@ -540,7 +540,7 @@
   .u-section-2 .u-container-layout-2 {
     padding-right: 10px;
   }
-}.u-section-3 {
+} .u-section-3 {
   background-image: none;
 }
 
@@ -642,7 +642,7 @@
     margin-left: initial;
     width: auto;
   }
-}.u-section-4 {
+} .u-section-4 {
   background-image: none;
 }
 
@@ -678,6 +678,15 @@
   margin: 20px auto 0;
 }
 
+.u-section-4 .u-text-5 {
+  font-weight: 700;
+  margin: -55px 270px 0 580px;
+}
+
+.u-section-4 .u-icon-1 {
+  color: rgb(255, 255, 255) !important;
+}
+
 .u-section-4 .u-btn-1 {
   border-style: none;
   font-size: 1.25rem;
@@ -686,25 +695,30 @@
   font-weight: 600;
   align-self: center;
   text-transform: none;
-  margin: 30px auto 0;
+  margin: 20px auto 0;
   padding: 18px 87px 18px 86px;
 }
 
 .u-section-4 .u-btn-2 {
-  margin: 30px 370px 0 auto;
+  margin: 18px 370px 0 auto;
   padding: 38px 47px 38px 46px;
 }
 
-.u-section-4 .u-text-5 {
+.u-section-4 .u-text-6 {
   margin: -127px 570px 60px 280px;
 }
 
 @media (max-width: 1199px) {
+  .u-section-4 .u-text-5 {
+    margin-right: 170px;
+    margin-left: 480px;
+  }
+
   .u-section-4 .u-btn-2 {
     margin-right: 170px;
   }
 
-  .u-section-4 .u-text-5 {
+  .u-section-4 .u-text-6 {
     width: 581px;
     margin-left: 180px;
     margin-right: 470px;
@@ -716,11 +730,16 @@
     width: 720px;
   }
 
+  .u-section-4 .u-text-5 {
+    margin-right: 60px;
+    margin-left: 370px;
+  }
+
   .u-section-4 .u-btn-2 {
     margin-right: 0;
   }
 
-  .u-section-4 .u-text-5 {
+  .u-section-4 .u-text-6 {
     margin-left: 70px;
     margin-right: 360px;
   }
@@ -737,6 +756,11 @@
   }
 
   .u-section-4 .u-text-5 {
+    margin-right: 0;
+    margin-left: 250px;
+  }
+
+  .u-section-4 .u-text-6 {
     width: 540px;
     margin-left: 0;
     margin-right: 250px;
@@ -760,6 +784,10 @@
   }
 
   .u-section-4 .u-text-5 {
+    margin-left: 50px;
+  }
+
+  .u-section-4 .u-text-6 {
     width: 340px;
     margin-right: 50px;
   }
@@ -769,7 +797,6 @@
 
 .u-section-5 .u-list-1 {
   grid-template-rows: auto;
-  height: auto;
   margin: 2px auto 2px 0;
 }
 
@@ -826,6 +853,7 @@
 
 @media (max-width: 1199px) {
   .u-section-5 .u-list-1 {
+    height: auto;
     margin-right: initial;
     margin-left: initial;
   }
